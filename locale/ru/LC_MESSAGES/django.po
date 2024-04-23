@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-23 13:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+#: users/api_views.py:34
+msgid "Missing phone_number in request"
+msgstr "В запросе отсутствует phone_number."
+
+#: users/api_views.py:47
+#, python-brace-format
+msgid "User created and pass code {pass_code} sent successfully"
+msgstr "Пользователь создан, код доступа {pass_code} успешно отправлен."
+
+#: users/api_views.py:50
+msgid "The phone number entered is not valid."
+msgstr "Введенный номер телефона недействителен."
+
+#: users/api_views.py:57
+#, python-brace-format
+msgid "Pass code {pass_code} sent successfully"
+msgstr "Код доступа {pass_code} успешно отправлен."
+
+#: users/api_views.py:92
+msgid "Missing pass_code in request"
+msgstr "В запросе отсутствует pass_code"
+
+#: users/api_views.py:99
+msgid "Invalid pass code"
+msgstr "Некорректный код доступа"
+
+#: users/api_views.py:138
+msgid "Missing referral_code in request"
+msgstr "В запросе отсутствует referral_code"
+
+#: users/api_views.py:145
+msgid "User with provided referral_code does not exist"
+msgstr "Пользователь с предоставленным referral_code не существует."
+
+#: users/api_views.py:153
+msgid "You have already activated your referral code."
+msgstr "Вы уже активировали свой реферальный код."
+
+#: users/api_views.py:157
+msgid "You cannot activate your referral code."
+msgstr "Вы не можете активировать свой реферальный код."
+
+#: users/api_views.py:165
+msgid "You have successfully activated referral code."
+msgstr "Вы успешно активировали реферальный код."
+
+#: users/managers.py:15
+msgid "The phone number must be set"
+msgstr "Номер телефона должен быть установлен"
+
+#: users/models.py:22
+msgid "phone number"
+msgstr "Номер телефона"
+
+#: users/models.py:29
+msgid "referral_code"
+msgstr "Реферальный код"
+
+#: users/models.py:35
+msgid "referrals"
+msgstr "Список рефералов"
+
+#: users/models.py:41
+msgid "referred_code"
+msgstr "Код реферера"
+
+#: users/models.py:47
+msgid "pass code"
+msgstr "Код доступа"
+
+#: users/models.py:51
+msgid "staff status"
+msgstr "Статус персонала"
+
+#: users/models.py:55
+msgid "date joined"
+msgstr "Дата регистрации"
+
+#: users/models.py:67
+msgid "user"
+msgstr "Пользователь"
+
+#: users/models.py:68
+msgid "users"
+msgstr "Пользователи"
